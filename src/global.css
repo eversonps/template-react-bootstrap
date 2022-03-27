@@ -1,0 +1,23 @@
+section{
+    padding: 50px 0;
+}
+
+@media screen and (max-width: 768px){
+    .row{
+        justify-content: center;
+    }
+
+    .sec1{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 575px){
+    header .logo{
+        justify-content: center;
+    }
+
+    .sec2-description-support{
+        text-align: center;
+    }
+}
